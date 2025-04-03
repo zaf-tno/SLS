@@ -1,4 +1,4 @@
-https://img.shields.io/badge/Sven_is-cool-pink
+![Static Badge](https://img.shields.io/badge/Version-2.1-blue)
 
 # SLS Data Processing Script
 
