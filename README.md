@@ -22,6 +22,11 @@ Install the required libraries using:
 ```bash
 pip install pandas matplotlib openpyxl xlsxwriter
 ```
+or using requirements.txt file from the script files:
+```bash
+pip install -r requirements.txt
+```
+Note: Use "!pip install" in Visual Studio Code.
 
 ## Usage
 
