@@ -35,15 +35,15 @@ Note: Use "!pip install" in Visual Studio Code.
 2. Update the `raw_directory` variable in the script with the name of the subfolder containing the raw data.
 3. Specify the output file name for the combined data in the `combined_sheets_filename` variable.
 
-### Step 2: Combine Raw Data
-Run the script to process the `.txt` files and generate an Excel file with combined data:
-```bash
-python <script_name>.py
-```
+### Step 2: Loading Libraries
+Run the first cell of the script to import needed libraries.
+
+### Step 3: Combine Raw Data
+Run the second cell to process the `.txt` files and generate an Excel file with combined data:
 The combined Excel file will be saved in the main folder.
 
-### Step 3: Generate Plots
-The script will automatically create scatter plots for each sheet in the combined Excel file and save them in a new Excel file in an `Output` folder.
+### Step 4: Generate Plots
+Run the last cell. The script will automatically create scatter plots for each sheet in the combined Excel file and save them in a new Excel file in an `Output` folder.
 
 ## Output
 1. **Combined Data File**: An Excel file (`combined sheets.xlsx`) containing all processed `.txt` files as separate sheets.
