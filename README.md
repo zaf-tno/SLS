@@ -1,7 +1,9 @@
+![Static Badge](https://img.shields.io/badge/Version-2.1-blue)
+
 # SLS Data Processing Script
 
 ## Overview
-This script is designed to process raw SLS `.txt` files, combine them into an Excel file with multiple sheets, and generate adjustable scatter plots saved in a separate Excel file. It automates the workflow for handling and visualizing SLS data.
+This script is designed to process raw SLS `.txt` files at TNO EMSA, combine them into an Excel file with multiple sheets, and generate adjustable scatter plots saved in a separate Excel file. It automates the workflow for handling and visualizing SLS data.
 
 ## Features
 1. **Combine Raw Data**: Reads `.txt` files from a specified folder, processes the data, and combines it into a single Excel file with each file's data in a separate sheet.
@@ -53,6 +55,7 @@ Run the last cell. The script will automatically create scatter plots for each s
 - Ensure the raw `.txt` files follow the expected format as described in the script comments.
 - Sheet names in Excel are truncated to 31 characters to avoid naming conflicts.
 - The x-axis of the plots is logarithmic, and two y-axes are used for different data series.
+- The raw files include meta data and is selectively and manually included in the output.
 
 ## Author
 - **Name**: Zaf Khalil
