@@ -13,9 +13,9 @@ This script is designed to process raw SLS `.txt` files at TNO EMSA, combine the
 ## Prerequisites
 - Python 3.x
 - Required Python libraries:
-  - `pandas`
-  - `matplotlib`
-  - `openpyxl`
+  - `pandas` 2.2.3
+  - `matplotlib` 3.10.1
+  - `openpyxl` 3.1.5
   - `xlsxwriter`
   - `os`
   - `io`
